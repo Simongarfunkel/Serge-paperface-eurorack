@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "Serge_Local") (type "KiCad") (uri "${KIPRJMOD}/Serge_Local.pretty") (options "") (descr "PJ301BM and review switch")))

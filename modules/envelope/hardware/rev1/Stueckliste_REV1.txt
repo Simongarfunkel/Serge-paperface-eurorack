@@ -1,0 +1,132 @@
+SERGE ENVELOPE REV1 - STUECKLISTE
+Stand: 12.10.2026
+Status: Elektrisches Pruefprojekt, keine mechanische/Hardware-Freigabe. REV0-Refdes sind zurueckgezogen.
+
+C1 | 10n | Serge_Local:C_0805_2012Metric | START / END / LATCH
+C2 | 220p | Serge_Local:C_0805_2012Metric | START / END / LATCH
+C3 | 470n | Serge_Local:C_Rect_L7.2mm_W2.5mm_P5.00mm | INTEGRATOR / HOLD NULL
+C4 | 33p | Serge_Local:C_0805_2012Metric | WINDOW
+C5 | 100p | Serge_Local:C_0805_2012Metric | WINDOW
+C6 | 100n | Serge_Local:C_0805_2012Metric | POWER / +6V REGULATOR
+C7 | 100n | Serge_Local:C_0805_2012Metric | POWER / +6V REGULATOR
+C8 | 100n | Serge_Local:C_0805_2012Metric | POWER / +6V REGULATOR
+C9 | 100n | Serge_Local:C_0805_2012Metric | POWER / +6V REGULATOR
+C10 | 10u | Serge_Local:CP_Elec_5x5.4 | POWER / +6V REGULATOR
+C11 | 10u | Serge_Local:CP_Elec_5x5.4 | POWER / +6V REGULATOR
+C12 | 47u | Serge_Local:CP_Elec_5x5.4 | POWER / +6V REGULATOR
+D1 | 1N4148 | Serge_Local:D_DO-35_SOD27_P7.62mm_Horizontal | START / END / LATCH
+D2 | 1N4148 | Serge_Local:D_DO-35_SOD27_P7.62mm_Horizontal | START / END / LATCH
+D3 | 1N4148 | Serge_Local:D_DO-35_SOD27_P7.62mm_Horizontal | START / END / LATCH
+D4 | 1N4148 | Serge_Local:D_DO-35_SOD27_P7.62mm_Horizontal | ENVELOPE BUFFER
+D5 | 1N4148 | Serge_Local:D_DO-35_SOD27_P7.62mm_Horizontal | ENVELOPE BUFFER
+D6 | 1N4148 | Serge_Local:D_DO-35_SOD27_P7.62mm_Horizontal | ENVELOPE BUFFER
+D7 | SS14 | Serge_Local:D_SMA | POWER / +6V REGULATOR
+D8 | 1N4007 | Serge_Local:D_DO-41_SOD81_P10.16mm_Horizontal | POWER / +6V REGULATOR
+D9 | BAT85 | Serge_Local:D_DO-35_SOD27_P7.62mm_Horizontal | LED / CYCLE
+D10 | BAT85 | Serge_Local:D_DO-35_SOD27_P7.62mm_Horizontal | LED / CYCLE
+J1 | END / PJ301BM | Serge_Local:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical | PANEL JACKS
+J2 | ENV_OUT / PJ301BM | Serge_Local:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical | PANEL JACKS
+J3 | WINDOW_OUT / PJ301BM | Serge_Local:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical | PANEL JACKS
+J4 | START / PJ301BM | Serge_Local:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical | PANEL JACKS
+J5 | ENV_OUT / PJ301BM | Serge_Local:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical | PANEL JACKS
+J6 | CYCLE / PJ301BM | Serge_Local:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical | PANEL JACKS
+J7 | HOLD / PJ301BM | Serge_Local:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical | PANEL JACKS
+J8 | WINDOW_CV / PJ301BM | Serge_Local:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical | PANEL JACKS
+J9 | DURATION_CV / PJ301BM | Serge_Local:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical | PANEL JACKS
+J10 | EURORACK 10 PIN | Serge_Local:IDC-Header_2x05_P2.54mm_Vertical | POWER / +6V REGULATOR
+LED1 | RED FLAT TOP 3mm | Serge_Local:LED_D3.0mm | LED / CYCLE
+Q1 | 2N3904 | Serge_Local:TO-92_Inline | START / END / LATCH
+Q2 | 2N3904 | Serge_Local:TO-92_Inline | INTEGRATOR / HOLD NULL
+Q3 | 2N3904 | Serge_Local:TO-92_Inline | RISE / FALL / DURATION
+Q4 | 2N3904 | Serge_Local:TO-92_Inline | RISE / FALL / DURATION
+Q5 | 2N3904 | Serge_Local:TO-92_Inline | ENVELOPE BUFFER
+Q6 | 2N3904 | Serge_Local:TO-92_Inline | ENVELOPE BUFFER
+Q7 | 2N3906 | Serge_Local:TO-92_Inline | RISE / FALL / DURATION
+Q8 | 2N3906 | Serge_Local:TO-92_Inline | RISE / FALL / DURATION
+Q9 | 2N3906 | Serge_Local:TO-92_Inline | ENVELOPE BUFFER
+Q10 | BC547 | Serge_Local:TO-92_Inline | LED / CYCLE
+R1 | 470 | Serge_Local:R_0805_2012Metric | START / END / LATCH
+R2 | 100k | Serge_Local:R_0805_2012Metric | START / END / LATCH
+R3 | 33k | Serge_Local:R_0805_2012Metric | START / END / LATCH
+R4 | 100k | Serge_Local:R_0805_2012Metric | START / END / LATCH
+R5 | 100k | Serge_Local:R_0805_2012Metric | START / END / LATCH
+R6 | 82k | Serge_Local:R_0805_2012Metric | START / END / LATCH
+R7 | 470 | Serge_Local:R_0805_2012Metric | START / END / LATCH
+R8 | 1M5 | Serge_Local:R_0805_2012Metric | START / END / LATCH
+R9 | 470k | Serge_Local:R_0805_2012Metric | START / END / LATCH
+R10 | 33k | Serge_Local:R_0805_2012Metric | START / END / LATCH
+R11 | 6k8 | Serge_Local:R_0805_2012Metric | START / END / LATCH
+R12 | 33 | Serge_Local:R_0805_2012Metric | INTEGRATOR / HOLD NULL
+R13 | 470 | Serge_Local:R_0805_2012Metric | INTEGRATOR / HOLD NULL
+R14 | 10M | Serge_Local:R_0805_2012Metric | INTEGRATOR / HOLD NULL
+R15 | 68k | Serge_Local:R_0805_2012Metric | INTEGRATOR / HOLD NULL
+R16 | 68k | Serge_Local:R_0805_2012Metric | INTEGRATOR / HOLD NULL
+R17 | 10M | Serge_Local:R_0805_2012Metric | INTEGRATOR / HOLD NULL
+R18 | 15k | Serge_Local:R_0805_2012Metric | RISE / FALL / DURATION
+R19 | 100k | Serge_Local:R_0805_2012Metric | RISE / FALL / DURATION
+R20 | 22k | Serge_Local:R_0805_2012Metric | RISE / FALL / DURATION
+R21 | 22k | Serge_Local:R_0805_2012Metric | RISE / FALL / DURATION
+R22 | 470k | Serge_Local:R_0805_2012Metric | RISE / FALL / DURATION
+R23 | 470k | Serge_Local:R_0805_2012Metric | RISE / FALL / DURATION
+R24 | 470k | Serge_Local:R_0805_2012Metric | RISE / FALL / DURATION
+R25 | 33k | Serge_Local:R_0805_2012Metric | RISE / FALL / DURATION
+R26 | 470k | Serge_Local:R_0805_2012Metric | RISE / FALL / DURATION
+R27 | 470k | Serge_Local:R_0805_2012Metric | RISE / FALL / DURATION
+R28 | 3k3 | Serge_Local:R_0805_2012Metric | RISE / FALL / DURATION
+R29 | 33k | Serge_Local:R_0805_2012Metric | RISE / FALL / DURATION
+R30 | 33k | Serge_Local:R_0805_2012Metric | RISE / FALL / DURATION
+R31 | 33k | Serge_Local:R_0805_2012Metric | RISE / FALL / DURATION
+R32 | 82k | Serge_Local:R_0805_2012Metric | ENVELOPE BUFFER
+R33 | 330k | Serge_Local:R_0805_2012Metric | ENVELOPE BUFFER
+R34 | 330k | Serge_Local:R_0805_2012Metric | ENVELOPE BUFFER
+R35 | 470k | Serge_Local:R_0805_2012Metric | ENVELOPE BUFFER
+R36 | 1k | Serge_Local:R_0805_2012Metric | ENVELOPE BUFFER
+R37 | 6k8 | Serge_Local:R_0805_2012Metric | ENVELOPE BUFFER
+R38 | 1k | Serge_Local:R_0805_2012Metric | ENVELOPE BUFFER
+R39 | 2k2 | Serge_Local:R_0805_2012Metric | ENVELOPE BUFFER
+R40 | 470 | Serge_Local:R_0805_2012Metric | ENVELOPE BUFFER
+R41 | 1M | Serge_Local:R_0805_2012Metric | WINDOW
+R42 | 1M | Serge_Local:R_0805_2012Metric | WINDOW
+R43 | 33k | Serge_Local:R_0805_2012Metric | WINDOW
+R44 | 1M5 | Serge_Local:R_0805_2012Metric | WINDOW
+R45 | 100k | Serge_Local:R_0805_2012Metric | WINDOW
+R46 | 470 | Serge_Local:R_0805_2012Metric | WINDOW
+R47 | 110 | Serge_Local:R_0805_2012Metric | POWER / +6V REGULATOR
+R48 | 360 | Serge_Local:R_0805_2012Metric | POWER / +6V REGULATOR
+R49 | 100k | Serge_Local:R_0805_2012Metric | LED / CYCLE
+R50 | 100k | Serge_Local:R_0805_2012Metric | LED / CYCLE
+R51 | 4k7 | Serge_Local:R_0805_2012Metric | LED / CYCLE
+R52 | 100k | Serge_Local:R_0805_2012Metric | LED / CYCLE
+RV1 | 25k linear | Serge_Local:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles | RISE / FALL / DURATION
+RV2 | 25k linear | Serge_Local:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles | RISE / FALL / DURATION
+RV3 | 25k linear | Serge_Local:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles | RISE / FALL / DURATION
+RV4 | 25k linear | Serge_Local:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles | WINDOW
+SW1 | MINI PRINT ON-OFF | Serge_Local:MiniToggle_SPDT_P4.7_REVIEW | LED / CYCLE
+TP1 | GND | Serge_Local:TestPoint_Pad_D1.5mm | TEST POINTS
+TP2 | +12V | Serge_Local:TestPoint_Pad_D1.5mm | TEST POINTS
+TP3 | +6V | Serge_Local:TestPoint_Pad_D1.5mm | TEST POINTS
+TP4 | ENV_INTERNAL | Serge_Local:TestPoint_Pad_D1.5mm | TEST POINTS
+TP5 | END_INTERNAL | Serge_Local:TestPoint_Pad_D1.5mm | TEST POINTS
+TP6 | WINDOW_RAW | Serge_Local:TestPoint_Pad_D1.5mm | TEST POINTS
+TP7 | ENV_CORE | Serge_Local:TestPoint_Pad_D1.5mm | TEST POINTS
+TP8 | RAW_ENV_TEST | Serge_Local:TestPoint_Pad_D1.5mm | TEST POINTS
+TR1 | 10k | Serge_Local:Potentiometer_Bourns_3296W_Vertical | INTEGRATOR / HOLD NULL
+TR2 | 25k | Serge_Local:Potentiometer_Bourns_3296W_Vertical | RISE / FALL / DURATION
+TR3 | 100 | Serge_Local:Potentiometer_Bourns_3296W_Vertical | POWER / +6V REGULATOR
+U1 | LM3900 | Serge_Local:DIP-14_W7.62mm | START / END / LATCH
+U2 | LM3900 | Serge_Local:DIP-14_W7.62mm | INTEGRATOR / HOLD NULL
+U3 | LM317T | Serge_Local:TO-220-3_Horizontal_TabDown | POWER / +6V REGULATOR
+
+SPEZIFIKATION / OFFENE TEILE:
+R1-R52: SMD 0805, 1%; geeignete Leistung/Spannung der gekauften Serie pruefen.
+C2/C4/C5: C0G/NP0 >=25V; C1 10nF geeignete Keramik/Film. C3 470nF niederleckender Folien-Zeitkondensator, 5-mm-Raster; konkrete Koerperbreite/Type noch pruefen.
+C6-C9: 100nF X7R >=25V. C10/C11 10uF und C12 47uF, >=25V, SMD-Elkos; tatsaechliche Gehaeusehoehe pruefen.
+RV1-RV4: Alpha RD901F-40-15R1-B25K, 25k linear, Einzel-Poti, Metall-Rundachse 6.35mm/15mm, vom Nutzer bestaetigt. Footprint aus Alpha-RD901F-Familie; Einbauhoehe mit Buchsen abgleichen.
+J1-J9: WQP518MA-BM / PJ301BM, vom Nutzer ausgewaehlt; 9 passende Muttern und Scheiben erforderlich.
+U1/U2: LM3900 PDIP14 Norton-Verstaerker; kein Standard-Op-Amp-Ersatz. U3: LM317T TO-220 liegend, Tab ist +6V.
+Q1-Q6 2N3904 E-B-C; Q7-Q9 2N3906 E-B-C; Q10 BC547 C-B-E. Pinout des tatsaechlichen Herstellers pruefen.
+TR1 10k HOLD NULL, TR2 25k RANGE, TR3 100 Ohm +6V-Abgleich: 3296W-Form als Entwurf.
+LED1: rot, Flat-Top, angenommene 3-mm-Ausfuehrung mit 2.54-mm-Raster; exakte Type, Bauhoehe und Panelbohrung noch offen.
+SW1: Mini-Print-Kippschalter, SPDT, ein Kontakt NC fuer ON/OFF-Funktion. 4.7-mm-Entwurfsfootprint; konkrete Type, Pins, Gehaeuse und Bauhoehe NICHT freigegeben.
+J10: verpolungscodierter 10-Pin-Eurorack-Wannenstecker: -12 an 1/2 NC, GND an 3-8, +12 an 9/10.
+TP1-TP8 sind gedruckte Testpads, keine Einkaufsbauteile.

@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+# KiCad: nutzerspezifische Einstellungen, Backups, Caches
+*.kicad_prl
+*-backups/
+*.bak
+*.lck
+_autosave-*
+fp-info-cache
+\#auto_saved_files\#
+# Vectorworks-Backups
+*-Backup-*.vwx

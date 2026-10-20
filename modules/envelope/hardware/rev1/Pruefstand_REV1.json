@@ -1,0 +1,15 @@
+{
+  "footprints": 114,
+  "functional_connected_pins_checked": 268,
+  "tracks": 1030,
+  "vias": 60,
+  "ERC": 0,
+  "DRC": 0,
+  "unconnected": 0,
+  "schematic_parity": 0,
+  "board_size_mm": [
+    77.28,
+    112.5
+  ],
+  "status": "routed electrical review; hardware and mechanics unverified"
+}

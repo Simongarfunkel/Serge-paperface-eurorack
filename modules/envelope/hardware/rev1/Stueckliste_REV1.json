@@ -1,0 +1,2562 @@
+[
+  {
+    "ref": "R1",
+    "value": "470",
+    "lib": "Device:R",
+    "pins": {
+      "1": "CYCLE_OR",
+      "2": "TRIG_NODE"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "START / END / LATCH",
+    "unit": 1,
+    "uuid": "9d02a8d2-7aeb-4eca-b665-93da953bface",
+    "schematic_at": [
+      50.8,
+      43.18
+    ],
+    "pcb_at_mm": [
+      120.0,
+      93.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R2",
+    "value": "100k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "START",
+      "2": "GND"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "START / END / LATCH",
+    "unit": 1,
+    "uuid": "731d6c02-5d13-4bfc-a96f-af38713e8a24",
+    "schematic_at": [
+      146.05,
+      43.18
+    ],
+    "pcb_at_mm": [
+      113.0,
+      77.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R3",
+    "value": "33k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "TRIG_NODE",
+      "2": "GND"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "START / END / LATCH",
+    "unit": 1,
+    "uuid": "6ddd8780-91a2-41c5-b3c2-fae6401defe8",
+    "schematic_at": [
+      50.8,
+      59.69
+    ],
+    "pcb_at_mm": [
+      126.0,
+      85.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R4",
+    "value": "100k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "TRIG_NODE",
+      "2": "TRIG_D"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "START / END / LATCH",
+    "unit": 1,
+    "uuid": "456cf4e5-08df-4656-bb26-c1a5335d9716",
+    "schematic_at": [
+      146.05,
+      59.69
+    ],
+    "pcb_at_mm": [
+      128.0,
+      98.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "C1",
+    "value": "10n",
+    "lib": "Device:C",
+    "pins": {
+      "1": "START",
+      "2": "TRIG_NODE"
+    },
+    "footprint": "Serge_Local:C_0805_2012Metric",
+    "group": "START / END / LATCH",
+    "unit": 1,
+    "uuid": "3dcf504f-d84e-4fde-a7bb-76250a437747",
+    "schematic_at": [
+      50.8,
+      76.2
+    ],
+    "pcb_at_mm": [
+      117.0,
+      77.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R5",
+    "value": "100k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "ENV_INTERNAL",
+      "2": "END_PLUS"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "START / END / LATCH",
+    "unit": 1,
+    "uuid": "d5821b84-a6d2-45f2-acb7-6f77008ae68d",
+    "schematic_at": [
+      146.05,
+      76.2
+    ],
+    "pcb_at_mm": [
+      114.0,
+      138.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R6",
+    "value": "82k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "END_INTERNAL",
+      "2": "END_MINUS"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "START / END / LATCH",
+    "unit": 1,
+    "uuid": "a345816d-23e3-4384-9639-3d30dbd9a3af",
+    "schematic_at": [
+      50.8,
+      92.71
+    ],
+    "pcb_at_mm": [
+      114.0,
+      142.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R7",
+    "value": "470",
+    "lib": "Device:R",
+    "pins": {
+      "1": "END_INTERNAL",
+      "2": "END"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "START / END / LATCH",
+    "unit": 1,
+    "uuid": "a7d1dcbf-9d3c-4931-bb44-3f319a32e18d",
+    "schematic_at": [
+      146.05,
+      92.71
+    ],
+    "pcb_at_mm": [
+      109.0,
+      109.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "U1",
+    "value": "LM3900",
+    "lib": "Serge:LM3900",
+    "pins": {
+      "1": "END_PLUS",
+      "6": "END_MINUS",
+      "5": "END_INTERNAL",
+      "2": "LATCH_PLUS",
+      "3": "LATCH_MINUS",
+      "4": "LATCH_OUT",
+      "13": "RATE_PLUS",
+      "8": "RATE_MINUS",
+      "9": "RATE_OUT",
+      "12": "ENV_BUF_PLUS",
+      "11": "ENV_BUF_MINUS",
+      "10": "ENV_INTERNAL",
+      "14": "+12V",
+      "7": "GND"
+    },
+    "footprint": "Serge_Local:DIP-14_W7.62mm",
+    "group": "START / END / LATCH",
+    "unit": 1,
+    "uuid": "21c5a08a-16dd-4294-b252-dd78a85b70a5",
+    "schematic_at": [
+      50.8,
+      109.22
+    ],
+    "pcb_at_mm": [
+      133.0,
+      132.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "D1",
+    "value": "1N4148",
+    "lib": "Device:D",
+    "pins": {
+      "1": "END_INTERNAL",
+      "2": "TRIG_D"
+    },
+    "footprint": "Serge_Local:D_DO-35_SOD27_P7.62mm_Horizontal",
+    "group": "START / END / LATCH",
+    "unit": 1,
+    "uuid": "edc18dad-9fda-4f60-b098-5973157a95f4",
+    "schematic_at": [
+      146.05,
+      109.22
+    ],
+    "pcb_at_mm": [
+      117.0,
+      135.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "D2",
+    "value": "1N4148",
+    "lib": "Device:D",
+    "pins": {
+      "1": "LATCH_MINUS",
+      "2": "TRIG_D"
+    },
+    "footprint": "Serge_Local:D_DO-35_SOD27_P7.62mm_Horizontal",
+    "group": "START / END / LATCH",
+    "unit": 1,
+    "uuid": "e69d4629-5675-4172-9068-0a5c7ebd54b2",
+    "schematic_at": [
+      50.8,
+      125.73
+    ],
+    "pcb_at_mm": [
+      117.0,
+      138.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R8",
+    "value": "1M5",
+    "lib": "Device:R",
+    "pins": {
+      "1": "+6V",
+      "2": "LATCH_MINUS"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "START / END / LATCH",
+    "unit": 1,
+    "uuid": "69cf9643-7403-4f38-a48b-b495cd1f2265",
+    "schematic_at": [
+      146.05,
+      125.73
+    ],
+    "pcb_at_mm": [
+      111.0,
+      139.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R9",
+    "value": "470k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "+6V",
+      "2": "LATCH_D_ANODE"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "START / END / LATCH",
+    "unit": 1,
+    "uuid": "45a09a24-c415-4bc6-94fc-b827004e3c8f",
+    "schematic_at": [
+      50.8,
+      142.24
+    ],
+    "pcb_at_mm": [
+      118.0,
+      147.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "D3",
+    "value": "1N4148",
+    "lib": "Device:D",
+    "pins": {
+      "1": "LATCH_PLUS",
+      "2": "LATCH_D_ANODE"
+    },
+    "footprint": "Serge_Local:D_DO-35_SOD27_P7.62mm_Horizontal",
+    "group": "START / END / LATCH",
+    "unit": 1,
+    "uuid": "d34c3b79-53fa-4841-bf80-de43f743441b",
+    "schematic_at": [
+      146.05,
+      142.24
+    ],
+    "pcb_at_mm": [
+      117.0,
+      141.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "C2",
+    "value": "220p",
+    "lib": "Device:C",
+    "pins": {
+      "1": "LATCH_D_ANODE",
+      "2": "LATCH_OUT"
+    },
+    "footprint": "Serge_Local:C_0805_2012Metric",
+    "group": "START / END / LATCH",
+    "unit": 1,
+    "uuid": "e90d193c-acc0-42f7-9857-359a23236fd9",
+    "schematic_at": [
+      50.8,
+      158.75
+    ],
+    "pcb_at_mm": [
+      122.0,
+      147.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R10",
+    "value": "33k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "LATCH_OUT",
+      "2": "Q1_BASE"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "START / END / LATCH",
+    "unit": 1,
+    "uuid": "bef5e71d-5435-4bbc-baae-3d3e316500ba",
+    "schematic_at": [
+      50.8,
+      175.26
+    ],
+    "pcb_at_mm": [
+      129.0,
+      150.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R11",
+    "value": "6k8",
+    "lib": "Device:R",
+    "pins": {
+      "1": "+12V",
+      "2": "Q1_COL"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "START / END / LATCH",
+    "unit": 1,
+    "uuid": "971aad97-71ce-4ab4-9479-63353a0a22f8",
+    "schematic_at": [
+      146.05,
+      175.26
+    ],
+    "pcb_at_mm": [
+      147.0,
+      112.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "Q1",
+    "value": "2N3904",
+    "lib": "Transistor_BJT:2N3904",
+    "pins": {
+      "1": "GND",
+      "2": "Q1_BASE",
+      "3": "Q1_COL"
+    },
+    "footprint": "Serge_Local:TO-92_Inline",
+    "group": "START / END / LATCH",
+    "unit": 1,
+    "uuid": "bb4e6f38-7425-49cb-8cc6-a1e4994a5d0c",
+    "schematic_at": [
+      50.8,
+      191.77
+    ],
+    "pcb_at_mm": [
+      149.0,
+      118.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "Q2",
+    "value": "2N3904",
+    "lib": "Transistor_BJT:2N3904",
+    "pins": {
+      "1": "INT_MINUS",
+      "2": "Q1_COL",
+      "3": "Q2_COL"
+    },
+    "footprint": "Serge_Local:TO-92_Inline",
+    "group": "INTEGRATOR / HOLD NULL",
+    "unit": 1,
+    "uuid": "f37e1fb3-f0bf-45d4-9f2c-d62309045ca1",
+    "schematic_at": [
+      254.0,
+      43.18
+    ],
+    "pcb_at_mm": [
+      137.0,
+      113.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R12",
+    "value": "33",
+    "lib": "Device:R",
+    "pins": {
+      "1": "Q2_COL",
+      "2": "ENV_CORE"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "INTEGRATOR / HOLD NULL",
+    "unit": 1,
+    "uuid": "17ac41d3-7b5c-4987-8e0f-a7cff5e0ab87",
+    "schematic_at": [
+      349.25,
+      43.18
+    ],
+    "pcb_at_mm": [
+      133.0,
+      110.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "C3",
+    "value": "470n",
+    "lib": "Device:C",
+    "pins": {
+      "1": "INT_MINUS",
+      "2": "ENV_CORE"
+    },
+    "footprint": "Serge_Local:C_Rect_L7.2mm_W2.5mm_P5.00mm",
+    "group": "INTEGRATOR / HOLD NULL",
+    "unit": 1,
+    "uuid": "70471f77-a38e-445b-8435-dfa872b00f88",
+    "schematic_at": [
+      254.0,
+      59.69
+    ],
+    "pcb_at_mm": [
+      110.0,
+      124.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R13",
+    "value": "470",
+    "lib": "Device:R",
+    "pins": {
+      "1": "ENV_CORE",
+      "2": "RAW_ENV_TEST"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "INTEGRATOR / HOLD NULL",
+    "unit": 1,
+    "uuid": "9a9215f6-4ead-48c4-b045-7c7a7546c3f3",
+    "schematic_at": [
+      349.25,
+      59.69
+    ],
+    "pcb_at_mm": [
+      107.0,
+      125.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "U2",
+    "value": "LM3900",
+    "lib": "Serge:LM3900",
+    "pins": {
+      "12": "INT_PLUS",
+      "11": "INT_MINUS",
+      "10": "ENV_CORE",
+      "13": "GND",
+      "8": "NULL_MINUS",
+      "9": "NULL_OUT",
+      "1": "WINDOW_PLUS",
+      "6": "WINDOW_MINUS",
+      "5": "WINDOW_RAW",
+      "2": "GND",
+      "3": "WINDOW_BUF_MINUS",
+      "4": "WINDOW_BUFFER",
+      "14": "+12V",
+      "7": "GND"
+    },
+    "footprint": "Serge_Local:DIP-14_W7.62mm",
+    "group": "INTEGRATOR / HOLD NULL",
+    "unit": 4,
+    "uuid": "f7239835-e2ff-4b40-aa1c-9c60f5dd7adb",
+    "schematic_at": [
+      254.0,
+      76.2
+    ],
+    "pcb_at_mm": [
+      133.0,
+      121.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R14",
+    "value": "10M",
+    "lib": "Device:R",
+    "pins": {
+      "1": "NULL_MINUS",
+      "2": "NULL_LEFT"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "INTEGRATOR / HOLD NULL",
+    "unit": 1,
+    "uuid": "38ca3f3a-e8b0-456f-969a-3eec9b48811e",
+    "schematic_at": [
+      349.25,
+      76.2
+    ],
+    "pcb_at_mm": [
+      106.0,
+      109.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R15",
+    "value": "68k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "NULL_LEFT",
+      "2": "GND"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "INTEGRATOR / HOLD NULL",
+    "unit": 1,
+    "uuid": "ca41fc24-549c-4673-af3d-43ff9f14b03a",
+    "schematic_at": [
+      254.0,
+      92.71
+    ],
+    "pcb_at_mm": [
+      104.0,
+      113.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "TR1",
+    "value": "10k",
+    "lib": "Device:R_Potentiometer",
+    "pins": {
+      "1": "NULL_RIGHT",
+      "2": "NULL_OUT",
+      "3": "NULL_LEFT"
+    },
+    "footprint": "Serge_Local:Potentiometer_Bourns_3296W_Vertical",
+    "group": "INTEGRATOR / HOLD NULL",
+    "unit": 1,
+    "uuid": "fc4a97d3-ed63-411c-8160-cfdadeefaf10",
+    "schematic_at": [
+      349.25,
+      92.71
+    ],
+    "pcb_at_mm": [
+      113.0,
+      114.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R16",
+    "value": "68k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "NULL_RIGHT",
+      "2": "GND"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "INTEGRATOR / HOLD NULL",
+    "unit": 1,
+    "uuid": "6409af4d-d52f-42e9-b591-294dd42690a6",
+    "schematic_at": [
+      254.0,
+      109.22
+    ],
+    "pcb_at_mm": [
+      104.0,
+      117.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R17",
+    "value": "10M",
+    "lib": "Device:R",
+    "pins": {
+      "1": "NULL_RIGHT",
+      "2": "INT_MINUS"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "INTEGRATOR / HOLD NULL",
+    "unit": 1,
+    "uuid": "45d69387-8199-47a4-af66-c0597ed8e9ef",
+    "schematic_at": [
+      349.25,
+      109.22
+    ],
+    "pcb_at_mm": [
+      109.0,
+      105.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R18",
+    "value": "15k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "ENV_INTERNAL",
+      "2": "RATE_BASE"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "RISE / FALL / DURATION",
+    "unit": 1,
+    "uuid": "9fdcec1e-b922-4692-8e71-7398caf3de5f",
+    "schematic_at": [
+      457.2,
+      43.18
+    ],
+    "pcb_at_mm": [
+      122.0,
+      150.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R19",
+    "value": "100k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "RATE_BASE",
+      "2": "GND"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "RISE / FALL / DURATION",
+    "unit": 1,
+    "uuid": "d0472509-f9b5-4fd0-92d8-c739edce77d9",
+    "schematic_at": [
+      552.45,
+      43.18
+    ],
+    "pcb_at_mm": [
+      128.0,
+      159.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "Q7",
+    "value": "2N3906",
+    "lib": "Transistor_BJT:2N3906",
+    "pins": {
+      "1": "+6V",
+      "2": "RATE_BASE",
+      "3": "RISE_TOP"
+    },
+    "footprint": "Serge_Local:TO-92_Inline",
+    "group": "RISE / FALL / DURATION",
+    "unit": 1,
+    "uuid": "f484e660-4c31-4720-a384-47d481360506",
+    "schematic_at": [
+      457.2,
+      59.69
+    ],
+    "pcb_at_mm": [
+      128.0,
+      166.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "Q8",
+    "value": "2N3906",
+    "lib": "Transistor_BJT:2N3906",
+    "pins": {
+      "1": "+6V",
+      "2": "RATE_BASE",
+      "3": "FALL_TOP"
+    },
+    "footprint": "Serge_Local:TO-92_Inline",
+    "group": "RISE / FALL / DURATION",
+    "unit": 1,
+    "uuid": "a6ae4be1-723a-40f5-b25c-59518814fb82",
+    "schematic_at": [
+      552.45,
+      59.69
+    ],
+    "pcb_at_mm": [
+      132.0,
+      162.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "RV1",
+    "value": "25k linear",
+    "lib": "Device:R_Potentiometer",
+    "pins": {
+      "1": "RISE_TOP",
+      "2": "RISE_W",
+      "3": "GND"
+    },
+    "footprint": "Serge_Local:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles",
+    "group": "RISE / FALL / DURATION",
+    "unit": 1,
+    "uuid": "38d7dbaf-7336-4f70-94ef-1448fe8d1a83",
+    "schematic_at": [
+      457.2,
+      76.2
+    ],
+    "pcb_at_mm": [
+      124.6373,
+      166.3322
+    ],
+    "pcb_side": "front"
+  },
+  {
+    "ref": "RV2",
+    "value": "25k linear",
+    "lib": "Device:R_Potentiometer",
+    "pins": {
+      "1": "FALL_TOP",
+      "2": "FALL_W",
+      "3": "DUR_LEFT"
+    },
+    "footprint": "Serge_Local:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles",
+    "group": "RISE / FALL / DURATION",
+    "unit": 1,
+    "uuid": "44de282c-fffa-4c94-8c82-fe44b64a3f61",
+    "schematic_at": [
+      552.45,
+      76.2
+    ],
+    "pcb_at_mm": [
+      148.1373,
+      166.3322
+    ],
+    "pcb_side": "front"
+  },
+  {
+    "ref": "RV3",
+    "value": "25k linear",
+    "lib": "Device:R_Potentiometer",
+    "pins": {
+      "1": "DUR_LEFT",
+      "2": "DURATION_CV",
+      "3": "DUR_RIGHT"
+    },
+    "footprint": "Serge_Local:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles",
+    "group": "RISE / FALL / DURATION",
+    "unit": 1,
+    "uuid": "6e23127f-d4cc-494f-99fb-d6d41d67c826",
+    "schematic_at": [
+      457.2,
+      92.71
+    ],
+    "pcb_at_mm": [
+      171.6373,
+      166.3322
+    ],
+    "pcb_side": "front"
+  },
+  {
+    "ref": "R20",
+    "value": "22k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "DUR_LEFT",
+      "2": "GND"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "RISE / FALL / DURATION",
+    "unit": 1,
+    "uuid": "e7b1ae66-f1ab-4815-8a09-2c934e68f1fc",
+    "schematic_at": [
+      552.45,
+      92.71
+    ],
+    "pcb_at_mm": [
+      157.0,
+      164.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R21",
+    "value": "22k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "DUR_RIGHT",
+      "2": "GND"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "RISE / FALL / DURATION",
+    "unit": 1,
+    "uuid": "ed1909b2-7f23-4be5-8e22-612a915bc8ec",
+    "schematic_at": [
+      457.2,
+      109.22
+    ],
+    "pcb_at_mm": [
+      175.0,
+      161.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R22",
+    "value": "470k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "RISE_W",
+      "2": "RATE_MINUS"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "RISE / FALL / DURATION",
+    "unit": 1,
+    "uuid": "afd73322-26b4-47c5-ad89-9ca2daa51382",
+    "schematic_at": [
+      552.45,
+      109.22
+    ],
+    "pcb_at_mm": [
+      118.0,
+      150.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R23",
+    "value": "470k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "FALL_W",
+      "2": "RATE_MINUS"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "RISE / FALL / DURATION",
+    "unit": 1,
+    "uuid": "8f4e4f20-5fbd-45f1-95f3-1afc3d1529be",
+    "schematic_at": [
+      457.2,
+      125.73
+    ],
+    "pcb_at_mm": [
+      126.0,
+      150.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R24",
+    "value": "470k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "DUR_LEFT",
+      "2": "RATE_MINUS"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "RISE / FALL / DURATION",
+    "unit": 1,
+    "uuid": "36390698-5880-4b3a-be10-f48a8a560c81",
+    "schematic_at": [
+      552.45,
+      125.73
+    ],
+    "pcb_at_mm": [
+      140.0,
+      155.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R25",
+    "value": "33k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "INT_PLUS",
+      "2": "RATE_MINUS"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "RISE / FALL / DURATION",
+    "unit": 1,
+    "uuid": "04955d19-3f6b-4b63-bc2b-38bf6f4c1a8f",
+    "schematic_at": [
+      457.2,
+      142.24
+    ],
+    "pcb_at_mm": [
+      114.0,
+      146.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R26",
+    "value": "470k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "DUR_RIGHT",
+      "2": "RATE_PLUS"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "RISE / FALL / DURATION",
+    "unit": 1,
+    "uuid": "b41a3b6a-ca46-491f-8278-464037ff4e1f",
+    "schematic_at": [
+      552.45,
+      142.24
+    ],
+    "pcb_at_mm": [
+      161.0,
+      152.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "TR2",
+    "value": "25k",
+    "lib": "Device:R_Potentiometer",
+    "pins": {
+      "1": "GND",
+      "2": "RANGE_W",
+      "3": "+12V"
+    },
+    "footprint": "Serge_Local:Potentiometer_Bourns_3296W_Vertical",
+    "group": "RISE / FALL / DURATION",
+    "unit": 1,
+    "uuid": "4c5df0b4-5f65-400c-b4d2-6c6d94c8b828",
+    "schematic_at": [
+      457.2,
+      158.75
+    ],
+    "pcb_at_mm": [
+      140.0,
+      141.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R27",
+    "value": "470k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "RANGE_W",
+      "2": "RATE_PLUS"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "RISE / FALL / DURATION",
+    "unit": 1,
+    "uuid": "1eb0f017-e445-4fb4-b89c-597d0ba6e123",
+    "schematic_at": [
+      552.45,
+      158.75
+    ],
+    "pcb_at_mm": [
+      144.0,
+      153.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R28",
+    "value": "3k3",
+    "lib": "Device:R",
+    "pins": {
+      "1": "RATE_OUT",
+      "2": "INT_PLUS"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "RISE / FALL / DURATION",
+    "unit": 1,
+    "uuid": "8d567494-0096-4cae-8811-0adae6ab2f1d",
+    "schematic_at": [
+      552.45,
+      175.26
+    ],
+    "pcb_at_mm": [
+      108.0,
+      129.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "Q3",
+    "value": "2N3904",
+    "lib": "Transistor_BJT:2N3904",
+    "pins": {
+      "1": "GND",
+      "2": "HOLD_BASE",
+      "3": "INT_PLUS"
+    },
+    "footprint": "Serge_Local:TO-92_Inline",
+    "group": "RISE / FALL / DURATION",
+    "unit": 1,
+    "uuid": "edc477de-4857-4dae-91df-c2a599f19e67",
+    "schematic_at": [
+      457.2,
+      191.77
+    ],
+    "pcb_at_mm": [
+      128.0,
+      110.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R29",
+    "value": "33k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "HOLD",
+      "2": "HOLD_BASE"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "RISE / FALL / DURATION",
+    "unit": 1,
+    "uuid": "e60f7f2e-b41a-49b9-8d2f-219fab0d42f6",
+    "schematic_at": [
+      552.45,
+      191.77
+    ],
+    "pcb_at_mm": [
+      133.0,
+      103.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R30",
+    "value": "33k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "HOLD",
+      "2": "GND"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "RISE / FALL / DURATION",
+    "unit": 1,
+    "uuid": "0cf1eb44-a1a3-46ea-9489-e078ea3e4f65",
+    "schematic_at": [
+      457.2,
+      208.28
+    ],
+    "pcb_at_mm": [
+      133.0,
+      99.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "Q4",
+    "value": "2N3904",
+    "lib": "Transistor_BJT:2N3904",
+    "pins": {
+      "1": "GND",
+      "2": "WINDOW_HOLD_BASE",
+      "3": "HOLD_BASE"
+    },
+    "footprint": "Serge_Local:TO-92_Inline",
+    "group": "RISE / FALL / DURATION",
+    "unit": 1,
+    "uuid": "25fae3b3-b8ff-4569-8d28-64089b439b17",
+    "schematic_at": [
+      552.45,
+      208.28
+    ],
+    "pcb_at_mm": [
+      128.0,
+      104.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R31",
+    "value": "33k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "WINDOW_RAW",
+      "2": "WINDOW_HOLD_BASE"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "RISE / FALL / DURATION",
+    "unit": 1,
+    "uuid": "17865b0b-511e-421e-96c7-a609a4259aae",
+    "schematic_at": [
+      457.2,
+      224.79
+    ],
+    "pcb_at_mm": [
+      106.0,
+      105.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R32",
+    "value": "82k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "+12V",
+      "2": "THRESH_BUS"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "ENVELOPE BUFFER",
+    "unit": 1,
+    "uuid": "18eae8d5-0102-4285-adaf-82251ceeae8f",
+    "schematic_at": [
+      660.4,
+      43.18
+    ],
+    "pcb_at_mm": [
+      111.0,
+      143.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "D4",
+    "value": "1N4148",
+    "lib": "Device:D",
+    "pins": {
+      "1": "LATCH_OUT",
+      "2": "THRESH_BUS"
+    },
+    "footprint": "Serge_Local:D_DO-35_SOD27_P7.62mm_Horizontal",
+    "group": "ENVELOPE BUFFER",
+    "unit": 1,
+    "uuid": "7d75e153-87b5-426c-b7ea-45a6d81b8e51",
+    "schematic_at": [
+      755.65,
+      43.18
+    ],
+    "pcb_at_mm": [
+      117.0,
+      144.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "D5",
+    "value": "1N4148",
+    "lib": "Device:D",
+    "pins": {
+      "1": "ENV_CORE",
+      "2": "THRESH_BUS"
+    },
+    "footprint": "Serge_Local:D_DO-35_SOD27_P7.62mm_Horizontal",
+    "group": "ENVELOPE BUFFER",
+    "unit": 1,
+    "uuid": "6507a374-116a-48ac-85b8-bd966c3249f0",
+    "schematic_at": [
+      660.4,
+      59.69
+    ],
+    "pcb_at_mm": [
+      114.0,
+      134.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "D6",
+    "value": "1N4148",
+    "lib": "Device:D",
+    "pins": {
+      "1": "ENV_INTERNAL",
+      "2": "THRESH_BUS"
+    },
+    "footprint": "Serge_Local:D_DO-35_SOD27_P7.62mm_Horizontal",
+    "group": "ENVELOPE BUFFER",
+    "unit": 1,
+    "uuid": "7cc47518-7684-40e0-80f0-1732853dc8c9",
+    "schematic_at": [
+      755.65,
+      59.69
+    ],
+    "pcb_at_mm": [
+      111.0,
+      135.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R33",
+    "value": "330k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "ENV_CORE",
+      "2": "ENV_BUF_MINUS"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "ENVELOPE BUFFER",
+    "unit": 1,
+    "uuid": "2a39d9e4-1a05-4a2b-9c5d-901bb182f18a",
+    "schematic_at": [
+      660.4,
+      76.2
+    ],
+    "pcb_at_mm": [
+      104.0,
+      121.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R34",
+    "value": "330k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "ENV_SENSE",
+      "2": "ENV_BUF_MINUS"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "ENVELOPE BUFFER",
+    "unit": 1,
+    "uuid": "fdd26c4c-1fd3-41fa-857d-7f919bb1a477",
+    "schematic_at": [
+      755.65,
+      76.2
+    ],
+    "pcb_at_mm": [
+      108.0,
+      133.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R35",
+    "value": "470k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "+12V",
+      "2": "ENV_BUF_PLUS"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "ENVELOPE BUFFER",
+    "unit": 1,
+    "uuid": "a051fb49-4648-4a1d-b441-ef0c3ff51415",
+    "schematic_at": [
+      660.4,
+      92.71
+    ],
+    "pcb_at_mm": [
+      105.0,
+      129.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "Q5",
+    "value": "2N3904",
+    "lib": "Transistor_BJT:2N3904",
+    "pins": {
+      "1": "ENV_SENSE",
+      "2": "THRESH_BUS",
+      "3": "+12V"
+    },
+    "footprint": "Serge_Local:TO-92_Inline",
+    "group": "ENVELOPE BUFFER",
+    "unit": 1,
+    "uuid": "e29273fd-1766-4532-bbc2-2cefb5944ef5",
+    "schematic_at": [
+      660.4,
+      109.22
+    ],
+    "pcb_at_mm": [
+      128.0,
+      145.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R36",
+    "value": "1k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "ENV_SENSE",
+      "2": "Q6_BASE"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "ENVELOPE BUFFER",
+    "unit": 1,
+    "uuid": "d0d87122-6c93-451e-bec9-8634f53d9435",
+    "schematic_at": [
+      755.65,
+      109.22
+    ],
+    "pcb_at_mm": [
+      135.0,
+      152.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R37",
+    "value": "6k8",
+    "lib": "Device:R",
+    "pins": {
+      "1": "Q6_BASE",
+      "2": "GND"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "ENVELOPE BUFFER",
+    "unit": 1,
+    "uuid": "da0fa490-3d3f-4dac-8f7e-654ec86c4a59",
+    "schematic_at": [
+      660.4,
+      125.73
+    ],
+    "pcb_at_mm": [
+      148.0,
+      153.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "Q6",
+    "value": "2N3904",
+    "lib": "Transistor_BJT:2N3904",
+    "pins": {
+      "1": "ENV_EMITTER",
+      "2": "Q6_BASE",
+      "3": "Q9_BASE"
+    },
+    "footprint": "Serge_Local:TO-92_Inline",
+    "group": "ENVELOPE BUFFER",
+    "unit": 1,
+    "uuid": "bc560440-29c4-471c-a59e-e5190fb0b4bd",
+    "schematic_at": [
+      755.65,
+      125.73
+    ],
+    "pcb_at_mm": [
+      151.0,
+      147.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "Q9",
+    "value": "2N3906",
+    "lib": "Transistor_BJT:2N3906",
+    "pins": {
+      "1": "+12V",
+      "2": "Q9_BASE",
+      "3": "ENV_DRV"
+    },
+    "footprint": "Serge_Local:TO-92_Inline",
+    "group": "ENVELOPE BUFFER",
+    "unit": 1,
+    "uuid": "b68f9a0d-bf6f-464d-9ef8-4e5510d06207",
+    "schematic_at": [
+      660.4,
+      142.24
+    ],
+    "pcb_at_mm": [
+      154.0,
+      153.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R38",
+    "value": "1k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "ENV_EMITTER",
+      "2": "ENV_DRV"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "ENVELOPE BUFFER",
+    "unit": 1,
+    "uuid": "e1f7342c-056a-4fce-bf16-b7139cf47f17",
+    "schematic_at": [
+      755.65,
+      142.24
+    ],
+    "pcb_at_mm": [
+      151.0,
+      157.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R39",
+    "value": "2k2",
+    "lib": "Device:R",
+    "pins": {
+      "1": "ENV_EMITTER",
+      "2": "GND"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "ENVELOPE BUFFER",
+    "unit": 1,
+    "uuid": "c2c88762-7bd7-4f09-a05e-2cb95f666cf1",
+    "schematic_at": [
+      660.4,
+      158.75
+    ],
+    "pcb_at_mm": [
+      154.0,
+      158.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R40",
+    "value": "470",
+    "lib": "Device:R",
+    "pins": {
+      "1": "ENV_DRV",
+      "2": "ENV_OUT"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "ENVELOPE BUFFER",
+    "unit": 1,
+    "uuid": "82c7b282-238c-4854-b55d-8a122e37d9ee",
+    "schematic_at": [
+      755.65,
+      158.75
+    ],
+    "pcb_at_mm": [
+      149.0,
+      109.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "RV4",
+    "value": "25k linear",
+    "lib": "Device:R_Potentiometer",
+    "pins": {
+      "1": "+6V",
+      "2": "WINDOW_W",
+      "3": "GND"
+    },
+    "footprint": "Serge_Local:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles",
+    "group": "WINDOW",
+    "unit": 1,
+    "uuid": "1be0f3a8-1405-4831-a511-24404bda2a92",
+    "schematic_at": [
+      50.8,
+      264.16
+    ],
+    "pcb_at_mm": [
+      156.6373,
+      82.4127
+    ],
+    "pcb_side": "front"
+  },
+  {
+    "ref": "R41",
+    "value": "1M",
+    "lib": "Device:R",
+    "pins": {
+      "1": "WINDOW_W",
+      "2": "WINDOW_PLUS"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "WINDOW",
+    "unit": 1,
+    "uuid": "6da3f3a8-1cf4-47e9-8fe9-fed3f81fc2e1",
+    "schematic_at": [
+      146.05,
+      264.16
+    ],
+    "pcb_at_mm": [
+      149.0,
+      103.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R42",
+    "value": "1M",
+    "lib": "Device:R",
+    "pins": {
+      "1": "WINDOW_CV",
+      "2": "WINDOW_PLUS"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "WINDOW",
+    "unit": 1,
+    "uuid": "39c9a64f-e6e9-4149-b5e4-abb3955f9d64",
+    "schematic_at": [
+      50.8,
+      280.67
+    ],
+    "pcb_at_mm": [
+      149.0,
+      106.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R43",
+    "value": "33k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "WINDOW_CV",
+      "2": "GND"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "WINDOW",
+    "unit": 1,
+    "uuid": "47540240-da52-4e28-9131-7fa64c8832ca",
+    "schematic_at": [
+      146.05,
+      280.67
+    ],
+    "pcb_at_mm": [
+      156.0,
+      103.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R44",
+    "value": "1M5",
+    "lib": "Device:R",
+    "pins": {
+      "1": "ENV_CORE",
+      "2": "WINDOW_MINUS"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "WINDOW",
+    "unit": 1,
+    "uuid": "269ac5ea-72d7-49f0-bcab-cfb2f00cc105",
+    "schematic_at": [
+      50.8,
+      297.18
+    ],
+    "pcb_at_mm": [
+      104.0,
+      125.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "C4",
+    "value": "33p",
+    "lib": "Device:C",
+    "pins": {
+      "1": "WINDOW_MINUS",
+      "2": "WINDOW_RAW"
+    },
+    "footprint": "Serge_Local:C_0805_2012Metric",
+    "group": "WINDOW",
+    "unit": 1,
+    "uuid": "157a1b7f-b3e9-47da-8911-e50af9e98b99",
+    "schematic_at": [
+      146.05,
+      297.18
+    ],
+    "pcb_at_mm": [
+      114.0,
+      121.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "C5",
+    "value": "100p",
+    "lib": "Device:C",
+    "pins": {
+      "1": "WINDOW_MINUS",
+      "2": "WINDOW_BUFFER"
+    },
+    "footprint": "Serge_Local:C_0805_2012Metric",
+    "group": "WINDOW",
+    "unit": 1,
+    "uuid": "1906aaeb-77ce-487b-98e7-0b370ba8e724",
+    "schematic_at": [
+      50.8,
+      313.69
+    ],
+    "pcb_at_mm": [
+      107.0,
+      121.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R45",
+    "value": "100k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "WINDOW_RAW",
+      "2": "WINDOW_BUF_MINUS"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "WINDOW",
+    "unit": 1,
+    "uuid": "626edf51-d758-4fda-b203-33ad3c8898da",
+    "schematic_at": [
+      50.8,
+      330.2
+    ],
+    "pcb_at_mm": [
+      109.0,
+      101.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R46",
+    "value": "470",
+    "lib": "Device:R",
+    "pins": {
+      "1": "WINDOW_BUFFER",
+      "2": "WINDOW_OUT"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "WINDOW",
+    "unit": 1,
+    "uuid": "d1531a78-70d6-4588-bfec-dadb33b2e1c2",
+    "schematic_at": [
+      50.8,
+      346.71
+    ],
+    "pcb_at_mm": [
+      132.0,
+      95.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "J10",
+    "value": "EURORACK 10 PIN",
+    "lib": "Connector_Generic:Conn_02x05_Odd_Even",
+    "pins": {
+      "1": null,
+      "2": null,
+      "3": "GND",
+      "4": "GND",
+      "5": "GND",
+      "6": "GND",
+      "7": "GND",
+      "8": "GND",
+      "9": "+12V_RAW",
+      "10": "+12V_RAW"
+    },
+    "footprint": "Serge_Local:IDC-Header_2x05_P2.54mm_Vertical",
+    "group": "POWER / +6V REGULATOR",
+    "unit": 1,
+    "uuid": "36b05f94-c0fc-48aa-9f3b-dafa22fe787b",
+    "schematic_at": [
+      254.0,
+      264.16
+    ],
+    "pcb_at_mm": [
+      140.0,
+      132.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "D7",
+    "value": "SS14",
+    "lib": "Device:D",
+    "pins": {
+      "1": "+12V",
+      "2": "+12V_RAW"
+    },
+    "footprint": "Serge_Local:D_SMA",
+    "group": "POWER / +6V REGULATOR",
+    "unit": 1,
+    "uuid": "13b9d047-34e1-4d8b-8fe2-a31ff033ce7b",
+    "schematic_at": [
+      349.25,
+      264.16
+    ],
+    "pcb_at_mm": [
+      154.0,
+      116.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "U3",
+    "value": "LM317T",
+    "lib": "Regulator_Linear:LM317_TO-220",
+    "pins": {
+      "1": "REG_ADJ",
+      "2": "+6V",
+      "3": "+12V"
+    },
+    "footprint": "Serge_Local:TO-220-3_Horizontal_TabDown",
+    "group": "POWER / +6V REGULATOR",
+    "unit": 1,
+    "uuid": "44f50f6d-32d7-494b-b6ba-aa618a58fe28",
+    "schematic_at": [
+      254.0,
+      280.67
+    ],
+    "pcb_at_mm": [
+      148.0,
+      132.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R47",
+    "value": "110",
+    "lib": "Device:R",
+    "pins": {
+      "1": "+6V",
+      "2": "REG_ADJ"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "POWER / +6V REGULATOR",
+    "unit": 1,
+    "uuid": "e856e2f2-2136-49cd-b8e3-6949a3f0837d",
+    "schematic_at": [
+      349.25,
+      280.67
+    ],
+    "pcb_at_mm": [
+      158.0,
+      119.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R48",
+    "value": "360",
+    "lib": "Device:R",
+    "pins": {
+      "1": "REG_ADJ",
+      "2": "REG_TRIM"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "POWER / +6V REGULATOR",
+    "unit": 1,
+    "uuid": "5e0bbe7e-b6d4-400e-9a7a-4ed47a8e8a0c",
+    "schematic_at": [
+      254.0,
+      297.18
+    ],
+    "pcb_at_mm": [
+      162.0,
+      122.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "TR3",
+    "value": "100",
+    "lib": "Device:R_Potentiometer",
+    "pins": {
+      "1": "REG_TRIM",
+      "2": "GND",
+      "3": "GND"
+    },
+    "footprint": "Serge_Local:Potentiometer_Bourns_3296W_Vertical",
+    "group": "POWER / +6V REGULATOR",
+    "unit": 1,
+    "uuid": "a49d9c6c-65ce-4a57-8811-f998f1d05b07",
+    "schematic_at": [
+      349.25,
+      297.18
+    ],
+    "pcb_at_mm": [
+      146.0,
+      141.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "C6",
+    "value": "100n",
+    "lib": "Device:C",
+    "pins": {
+      "1": "+12V",
+      "2": "GND"
+    },
+    "footprint": "Serge_Local:C_0805_2012Metric",
+    "group": "POWER / +6V REGULATOR",
+    "unit": 1,
+    "uuid": "18b9075d-20d5-4af6-882a-ff844a62323b",
+    "schematic_at": [
+      254.0,
+      313.69
+    ],
+    "pcb_at_mm": [
+      143.0,
+      114.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "C7",
+    "value": "100n",
+    "lib": "Device:C",
+    "pins": {
+      "1": "+12V",
+      "2": "GND"
+    },
+    "footprint": "Serge_Local:C_0805_2012Metric",
+    "group": "POWER / +6V REGULATOR",
+    "unit": 1,
+    "uuid": "fb84099c-c65e-4b62-ae57-b52702aad1ed",
+    "schematic_at": [
+      349.25,
+      313.69
+    ],
+    "pcb_at_mm": [
+      145.0,
+      150.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "C8",
+    "value": "100n",
+    "lib": "Device:C",
+    "pins": {
+      "1": "+12V",
+      "2": "GND"
+    },
+    "footprint": "Serge_Local:C_0805_2012Metric",
+    "group": "POWER / +6V REGULATOR",
+    "unit": 1,
+    "uuid": "031a23f3-bbf6-4388-b884-746705b78c4a",
+    "schematic_at": [
+      254.0,
+      330.2
+    ],
+    "pcb_at_mm": [
+      132.0,
+      150.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "C9",
+    "value": "100n",
+    "lib": "Device:C",
+    "pins": {
+      "1": "+6V",
+      "2": "GND"
+    },
+    "footprint": "Serge_Local:C_0805_2012Metric",
+    "group": "POWER / +6V REGULATOR",
+    "unit": 1,
+    "uuid": "1a26a0e0-7afd-4c6f-8c3a-67ad1ab9f2e0",
+    "schematic_at": [
+      349.25,
+      330.2
+    ],
+    "pcb_at_mm": [
+      140.0,
+      152.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "C10",
+    "value": "10u",
+    "lib": "Device:C_Polarized",
+    "pins": {
+      "1": "+12V",
+      "2": "GND"
+    },
+    "footprint": "Serge_Local:CP_Elec_5x5.4",
+    "group": "POWER / +6V REGULATOR",
+    "unit": 1,
+    "uuid": "2ad2a8dd-b611-4ecd-8a4d-e87b01c9dbdd",
+    "schematic_at": [
+      254.0,
+      346.71
+    ],
+    "pcb_at_mm": [
+      129.0,
+      138.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "C11",
+    "value": "10u",
+    "lib": "Device:C_Polarized",
+    "pins": {
+      "1": "+6V",
+      "2": "GND"
+    },
+    "footprint": "Serge_Local:CP_Elec_5x5.4",
+    "group": "POWER / +6V REGULATOR",
+    "unit": 1,
+    "uuid": "7946cdf2-3cd4-4c3d-9e88-a528485675ef",
+    "schematic_at": [
+      349.25,
+      346.71
+    ],
+    "pcb_at_mm": [
+      152.0,
+      140.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "C12",
+    "value": "47u",
+    "lib": "Device:C_Polarized",
+    "pins": {
+      "1": "+12V",
+      "2": "GND"
+    },
+    "footprint": "Serge_Local:CP_Elec_5x5.4",
+    "group": "POWER / +6V REGULATOR",
+    "unit": 1,
+    "uuid": "24de18a8-8735-4636-ac84-3ad69d23a8a4",
+    "schematic_at": [
+      254.0,
+      363.22
+    ],
+    "pcb_at_mm": [
+      138.0,
+      147.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "D8",
+    "value": "1N4007",
+    "lib": "Device:D",
+    "pins": {
+      "1": "+12V",
+      "2": "+6V"
+    },
+    "footprint": "Serge_Local:D_DO-41_SOD81_P10.16mm_Horizontal",
+    "group": "POWER / +6V REGULATOR",
+    "unit": 1,
+    "uuid": "9d257e14-3eed-4a3a-8924-0fa57582b01d",
+    "schematic_at": [
+      349.25,
+      363.22
+    ],
+    "pcb_at_mm": [
+      148.0,
+      122.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "Q10",
+    "value": "BC547",
+    "lib": "Transistor_BJT:BC547",
+    "pins": {
+      "1": "LED_CATHODE",
+      "2": "LED_BASE",
+      "3": "GND"
+    },
+    "footprint": "Serge_Local:TO-92_Inline",
+    "group": "LED / CYCLE",
+    "unit": 1,
+    "uuid": "4e72a1e5-1b22-454a-a6ae-73f00b6b26f9",
+    "schematic_at": [
+      457.2,
+      264.16
+    ],
+    "pcb_at_mm": [
+      152.0,
+      71.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R49",
+    "value": "100k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "ENV_INTERNAL",
+      "2": "LED_BASE"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "LED / CYCLE",
+    "unit": 1,
+    "uuid": "5943b118-e19e-4e58-b0c6-605947152ae8",
+    "schematic_at": [
+      552.45,
+      264.16
+    ],
+    "pcb_at_mm": [
+      108.0,
+      137.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R50",
+    "value": "100k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "LED_BASE",
+      "2": "GND"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "LED / CYCLE",
+    "unit": 1,
+    "uuid": "5f2dc397-2fa4-4fb3-9070-8ac86954bcd8",
+    "schematic_at": [
+      457.2,
+      280.67
+    ],
+    "pcb_at_mm": [
+      128.0,
+      95.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R51",
+    "value": "4k7",
+    "lib": "Device:R",
+    "pins": {
+      "1": "+12V",
+      "2": "LED_ANODE"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "LED / CYCLE",
+    "unit": 1,
+    "uuid": "5e19df93-804a-42c7-b314-77db7522b908",
+    "schematic_at": [
+      552.45,
+      280.67
+    ],
+    "pcb_at_mm": [
+      157.0,
+      75.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "LED1",
+    "value": "RED FLAT TOP 3mm",
+    "lib": "Device:LED",
+    "pins": {
+      "1": "LED_CATHODE",
+      "2": "LED_ANODE"
+    },
+    "footprint": "Serge_Local:LED_D3.0mm",
+    "group": "LED / CYCLE",
+    "unit": 1,
+    "uuid": "7beb48a5-61a6-42f5-ad1b-d4f91cc384e7",
+    "schematic_at": [
+      457.2,
+      297.18
+    ],
+    "pcb_at_mm": [
+      151.529,
+      75.2865
+    ],
+    "pcb_side": "front"
+  },
+  {
+    "ref": "SW1",
+    "value": "MINI PRINT ON-OFF",
+    "lib": "Switch:SW_SPDT",
+    "pins": {
+      "1": null,
+      "2": "+6V",
+      "3": "CYCLE_SWITCHED"
+    },
+    "footprint": "Serge_Local:MiniToggle_SPDT_P4.7_REVIEW",
+    "group": "LED / CYCLE",
+    "unit": 1,
+    "uuid": "da431220-65dd-437b-8857-62c4acf650ba",
+    "schematic_at": [
+      552.45,
+      297.18
+    ],
+    "pcb_at_mm": [
+      128.481,
+      75.2865
+    ],
+    "pcb_side": "front"
+  },
+  {
+    "ref": "D9",
+    "value": "BAT85",
+    "lib": "Device:D",
+    "pins": {
+      "1": "CYCLE_OR",
+      "2": "CYCLE"
+    },
+    "footprint": "Serge_Local:D_DO-35_SOD27_P7.62mm_Horizontal",
+    "group": "LED / CYCLE",
+    "unit": 1,
+    "uuid": "93b4ecca-390a-48c2-a99e-a60f8d50029c",
+    "schematic_at": [
+      457.2,
+      313.69
+    ],
+    "pcb_at_mm": [
+      117.0,
+      96.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "D10",
+    "value": "BAT85",
+    "lib": "Device:D",
+    "pins": {
+      "1": "CYCLE_OR",
+      "2": "CYCLE_SWITCHED"
+    },
+    "footprint": "Serge_Local:D_DO-35_SOD27_P7.62mm_Horizontal",
+    "group": "LED / CYCLE",
+    "unit": 1,
+    "uuid": "e732934e-de33-4943-9db2-d2e938f2727b",
+    "schematic_at": [
+      552.45,
+      313.69
+    ],
+    "pcb_at_mm": [
+      125.0,
+      88.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "R52",
+    "value": "100k",
+    "lib": "Device:R",
+    "pins": {
+      "1": "CYCLE",
+      "2": "GND"
+    },
+    "footprint": "Serge_Local:R_0805_2012Metric",
+    "group": "LED / CYCLE",
+    "unit": 1,
+    "uuid": "97432d85-9026-483f-83ee-4c704d9d1f09",
+    "schematic_at": [
+      457.2,
+      330.2
+    ],
+    "pcb_at_mm": [
+      124.0,
+      93.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "J1",
+    "value": "END / PJ301BM",
+    "lib": "Serge:JackMonoSwitch",
+    "pins": {
+      "T": "END",
+      "TN": null,
+      "S": "GND"
+    },
+    "footprint": "Serge_Local:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical",
+    "group": "PANEL JACKS",
+    "unit": 1,
+    "uuid": "27928a2c-63e1-4489-b7c6-710df92cd030",
+    "schematic_at": [
+      660.4,
+      264.16
+    ],
+    "pcb_at_mm": [
+      117.1373,
+      65.2617
+    ],
+    "pcb_side": "front"
+  },
+  {
+    "ref": "J2",
+    "value": "ENV_OUT / PJ301BM",
+    "lib": "Serge:JackMonoSwitch",
+    "pins": {
+      "T": "ENV_OUT",
+      "TN": null,
+      "S": "GND"
+    },
+    "footprint": "Serge_Local:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical",
+    "group": "PANEL JACKS",
+    "unit": 1,
+    "uuid": "8dc14b26-3eb1-47f5-a870-a0d984567313",
+    "schematic_at": [
+      755.65,
+      264.16
+    ],
+    "pcb_at_mm": [
+      140.64,
+      65.2617
+    ],
+    "pcb_side": "front"
+  },
+  {
+    "ref": "J3",
+    "value": "WINDOW_OUT / PJ301BM",
+    "lib": "Serge:JackMonoSwitch",
+    "pins": {
+      "T": "WINDOW_OUT",
+      "TN": null,
+      "S": "GND"
+    },
+    "footprint": "Serge_Local:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical",
+    "group": "PANEL JACKS",
+    "unit": 1,
+    "uuid": "979fa5e8-bd87-4d90-82ac-46f64ac56021",
+    "schematic_at": [
+      660.4,
+      280.67
+    ],
+    "pcb_at_mm": [
+      164.1373,
+      65.2617
+    ],
+    "pcb_side": "front"
+  },
+  {
+    "ref": "J4",
+    "value": "START / PJ301BM",
+    "lib": "Serge:JackMonoSwitch",
+    "pins": {
+      "T": "START",
+      "TN": null,
+      "S": "GND"
+    },
+    "footprint": "Serge_Local:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical",
+    "group": "PANEL JACKS",
+    "unit": 1,
+    "uuid": "b39957b1-d15b-4aaf-bfc8-076ded622850",
+    "schematic_at": [
+      755.65,
+      280.67
+    ],
+    "pcb_at_mm": [
+      117.1373,
+      84.9214
+    ],
+    "pcb_side": "front"
+  },
+  {
+    "ref": "J5",
+    "value": "ENV_OUT / PJ301BM",
+    "lib": "Serge:JackMonoSwitch",
+    "pins": {
+      "T": "ENV_OUT",
+      "TN": null,
+      "S": "GND"
+    },
+    "footprint": "Serge_Local:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical",
+    "group": "PANEL JACKS",
+    "unit": 1,
+    "uuid": "64306bda-1721-4964-b7c4-06bcea3d2e88",
+    "schematic_at": [
+      660.4,
+      297.18
+    ],
+    "pcb_at_mm": [
+      140.629,
+      84.9214
+    ],
+    "pcb_side": "front"
+  },
+  {
+    "ref": "J6",
+    "value": "CYCLE / PJ301BM",
+    "lib": "Serge:JackMonoSwitch",
+    "pins": {
+      "T": "CYCLE",
+      "TN": null,
+      "S": "GND"
+    },
+    "footprint": "Serge_Local:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical",
+    "group": "PANEL JACKS",
+    "unit": 1,
+    "uuid": "eac2b51d-8029-4997-9789-5dd28dd75dfb",
+    "schematic_at": [
+      755.65,
+      297.18
+    ],
+    "pcb_at_mm": [
+      117.1373,
+      104.6535
+    ],
+    "pcb_side": "front"
+  },
+  {
+    "ref": "J7",
+    "value": "HOLD / PJ301BM",
+    "lib": "Serge:JackMonoSwitch",
+    "pins": {
+      "T": "HOLD",
+      "TN": null,
+      "S": "GND"
+    },
+    "footprint": "Serge_Local:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical",
+    "group": "PANEL JACKS",
+    "unit": 1,
+    "uuid": "d5457f71-81ee-4e26-add1-961b8dc81ea6",
+    "schematic_at": [
+      660.4,
+      313.69
+    ],
+    "pcb_at_mm": [
+      140.629,
+      104.6535
+    ],
+    "pcb_side": "front"
+  },
+  {
+    "ref": "J8",
+    "value": "WINDOW_CV / PJ301BM",
+    "lib": "Serge:JackMonoSwitch",
+    "pins": {
+      "T": "WINDOW_CV",
+      "TN": null,
+      "S": "GND"
+    },
+    "footprint": "Serge_Local:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical",
+    "group": "PANEL JACKS",
+    "unit": 1,
+    "uuid": "0462086d-98e5-4574-95ed-83a673d5fc4e",
+    "schematic_at": [
+      755.65,
+      313.69
+    ],
+    "pcb_at_mm": [
+      164.1373,
+      104.6535
+    ],
+    "pcb_side": "front"
+  },
+  {
+    "ref": "J9",
+    "value": "DURATION_CV / PJ301BM",
+    "lib": "Serge:JackMonoSwitch",
+    "pins": {
+      "T": "DURATION_CV",
+      "TN": null,
+      "S": "GND"
+    },
+    "footprint": "Serge_Local:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical",
+    "group": "PANEL JACKS",
+    "unit": 1,
+    "uuid": "d67dbb6d-ac7e-4314-b385-5782be54cb35",
+    "schematic_at": [
+      660.4,
+      330.2
+    ],
+    "pcb_at_mm": [
+      164.1373,
+      144.1177
+    ],
+    "pcb_side": "front"
+  },
+  {
+    "ref": "TP1",
+    "value": "GND",
+    "lib": "Connector:TestPoint",
+    "pins": {
+      "1": "GND"
+    },
+    "footprint": "Serge_Local:TestPoint_Pad_D1.5mm",
+    "group": "TEST POINTS",
+    "unit": 1,
+    "uuid": "4eb170ea-52d7-4123-bf42-c9b27a2f5c38",
+    "schematic_at": [
+      50.8,
+      485.14
+    ],
+    "pcb_at_mm": [
+      132.0,
+      154.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "TP2",
+    "value": "+12V",
+    "lib": "Connector:TestPoint",
+    "pins": {
+      "1": "+12V"
+    },
+    "footprint": "Serge_Local:TestPoint_Pad_D1.5mm",
+    "group": "TEST POINTS",
+    "unit": 1,
+    "uuid": "016f743b-ddf4-4d49-b623-c0592f40626b",
+    "schematic_at": [
+      146.05,
+      485.14
+    ],
+    "pcb_at_mm": [
+      158.0,
+      116.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "TP3",
+    "value": "+6V",
+    "lib": "Connector:TestPoint",
+    "pins": {
+      "1": "+6V"
+    },
+    "footprint": "Serge_Local:TestPoint_Pad_D1.5mm",
+    "group": "TEST POINTS",
+    "unit": 1,
+    "uuid": "0dc8c2f0-2713-4912-a969-a56fb8647129",
+    "schematic_at": [
+      50.8,
+      501.65
+    ],
+    "pcb_at_mm": [
+      129.0,
+      154.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "TP4",
+    "value": "ENV_INTERNAL",
+    "lib": "Connector:TestPoint",
+    "pins": {
+      "1": "ENV_INTERNAL"
+    },
+    "footprint": "Serge_Local:TestPoint_Pad_D1.5mm",
+    "group": "TEST POINTS",
+    "unit": 1,
+    "uuid": "258d39c2-b85d-4760-8bd6-34b283bff5dd",
+    "schematic_at": [
+      146.05,
+      501.65
+    ],
+    "pcb_at_mm": [
+      108.0,
+      141.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "TP5",
+    "value": "END_INTERNAL",
+    "lib": "Connector:TestPoint",
+    "pins": {
+      "1": "END_INTERNAL"
+    },
+    "footprint": "Serge_Local:TestPoint_Pad_D1.5mm",
+    "group": "TEST POINTS",
+    "unit": 1,
+    "uuid": "cb35ffc9-f6d2-4d76-900f-afe56f9c4774",
+    "schematic_at": [
+      50.8,
+      518.16
+    ],
+    "pcb_at_mm": [
+      105.0,
+      133.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "TP6",
+    "value": "WINDOW_RAW",
+    "lib": "Connector:TestPoint",
+    "pins": {
+      "1": "WINDOW_RAW"
+    },
+    "footprint": "Serge_Local:TestPoint_Pad_D1.5mm",
+    "group": "TEST POINTS",
+    "unit": 1,
+    "uuid": "a095299e-4146-4014-a567-84420c6b3a7d",
+    "schematic_at": [
+      146.05,
+      518.16
+    ],
+    "pcb_at_mm": [
+      106.0,
+      101.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "TP7",
+    "value": "ENV_CORE",
+    "lib": "Connector:TestPoint",
+    "pins": {
+      "1": "ENV_CORE"
+    },
+    "footprint": "Serge_Local:TestPoint_Pad_D1.5mm",
+    "group": "TEST POINTS",
+    "unit": 1,
+    "uuid": "4b2145e8-d548-47c1-a50f-b2133e754e44",
+    "schematic_at": [
+      50.8,
+      534.67
+    ],
+    "pcb_at_mm": [
+      105.0,
+      136.0
+    ],
+    "pcb_side": "back"
+  },
+  {
+    "ref": "TP8",
+    "value": "RAW_ENV_TEST",
+    "lib": "Connector:TestPoint",
+    "pins": {
+      "1": "RAW_ENV_TEST"
+    },
+    "footprint": "Serge_Local:TestPoint_Pad_D1.5mm",
+    "group": "TEST POINTS",
+    "unit": 1,
+    "uuid": "0e61dc7b-462f-4f04-a8b7-09b755aff8ea",
+    "schematic_at": [
+      146.05,
+      534.67
+    ],
+    "pcb_at_mm": [
+      105.0,
+      139.0
+    ],
+    "pcb_side": "back"
+  }
+]

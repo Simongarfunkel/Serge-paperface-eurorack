@@ -1,0 +1,6 @@
+*.pdf  binary
+*.png  binary
+*.zip  binary
+*.vwx  binary
+*.dxf  binary
+*.kicad_*  text eol=lf

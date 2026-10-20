@@ -1,0 +1,44 @@
+SERGE ENVELOPE REV1 - ECHTES ELEKTRISCHES KICAD-PRUEFPROJEKT
+Stand: 12.10.2026
+
+Serge_Envelope_REV1.kicad_pro oeffnen. Schaltplan und Platineneditor enthalten echte Bauteile, Pins, Netze und Leiterbahnen.
+Die Schaltung ist in Funktionsgruppen gegliedert. Gleichnamige Netzlabels sind elektrisch verbunden; Netz hervorheben zeigt die Verbindungen.
+Lokale Symbole und Footprints sind im Paket enthalten. Standard-3D-Modelle beziehen sich auf die KiCad-Installation; exakte Modelle der gewaehlten Bedienelemente sind nicht vollstaendig verifiziert.
+
+ENTHALTEN:
+- Vollstaendig verbundene Uebertragung der 73-75-Envelope-Schaltung, nummerierte Bauteile.
+- Eigener +6V-Regler aus +12V; roter LED-Treiber; isolierte Cycle-Umschaltung; 10-Pin-Eurorack.
+- 114 physische Footprints, eine beidseitig bestueckte Platine, keine Draehte.
+- Alle Verbindungen geroutet; Bauteilkennzeichen und Werte als zusammengehoerige PCB-Silkscreen-Beschriftung. Gehaeusekonturen liegen auf den Fab-Lagen.
+- PCB- und Panelkontur sind getrennt. Dwgs.User zeigt Panelbezug und Achsmarkierungen.
+- Bedienachsen laut Nutzer-Raster; Cycle-Schalter an der Panelmitte horizontal zur LED gespiegelt.
+
+PRUEFUNGEN:
+- Original-BOM-Wertgruppen: R46, C5, D6, Q9, U2, RV4, TR2 stimmen mit dem Guide ueberein.
+- Alle 268 verbundenen funktionalen Bauteilpins zwischen Verbindungstabelle, exportierter KiCad-Netzliste und PCB abgeglichen.
+- ERC: 0 Meldungen. DRC: 0 Meldungen. Unverbundene Pads: 0. Schaltplan/PCB-Paritaet: 0 Abweichungen.
+- Mindestleiterbahnbreite 0.2mm, Netclass-Abstand 0.2mm, Kupfer zum Rand 0.5mm. Keine zusaetzlichen DRC/ERC-Ausnahmen zur Fehlerunterdrueckung eingefuehrt. KiCad-Standardpruefumfang siehe Berichte.
+- Lokales Routing mit Freerouting, anschliessend KiCad-DRC und manuelle Abstandskorrekturen. Keine Schaltungsdaten hochgeladen.
+
+NOCH KEINE FERTIGUNGSFREIGABE:
+- SW1 ist ein generischer 4.7-mm-Print-Entwurfsfootprint. Konkretes Schaltermodell, Pinquerschnitt und gemeinsame Bauhoehe mit Buchsen/Potis noch bestaetigen.
+- Paneldicke, Rackschienenfreiraum und reale Bedienelemente muessen als gemeinsamer mechanischer Aufbau geprueft werden.
+- Angenommener PCB-Umriss 77.28 x 112.5mm, oben 8.5mm und seitlich 2mm vom Panelrand. Untere Poti-Montagelaschen bestimmen die notwendige Ausdehnung. Nicht blind fertigen: Schienenfreiraum kontrollieren.
+- LED-Ausfuehrung 3mm/2.54mm angenommen. Das 2.5-mm-Zeichen in der DXF ist nur eine Positionsmarkierung, keine bestaetigte LED-Bohrung.
+- Zeitkondensator, Elkos, Trimmer und genaue Bezugs-Teilenummern noch mechanisch/elektrisch gegen Datenblaetter abgleichen.
+- Noch kein Hardware-Prototyp, keine analoge Funktionsmessung oder Simulation. ERC/DRC belegen weder Klang/Funktion noch mechanische Passung.
+- Vor Betrieb +6V an TP3 einstellen. Integratorpunkt TP7 = ENV_CORE / U2 Pin10 entspricht unserem Abgleichpunkt. Original-Abgleichverfahren muss am Prototyp ueberprueft werden.
+- RV3 ist Duration-Steuerung; RV4 Window Size. Poti-Wirkrichtung und alle CV-/Trigger-Funktionen am Prototyp pruefen.
+
+Die alte REV0 enthielt nur eine Zeichnungsreferenz und eine fehlerhafte Textangabe zum Stromanschluss. Diese Unterlagen sind zurueckgezogen. In REV1 gilt ausschliesslich: Pins1/2 -12V NC, Pins3-8 Masse, Pins9/10 +12V.
+
+QUELLEN:
+73-75-build-instructions-4-2.pdf, S32-34 (vom Nutzer bereitgestellt).
+Originalpanel ENVELOPE_REV.0.dxf (vom Nutzer bereitgestellt).
+https://www.ti.com/lit/ds/symlink/lm3900.pdf
+https://www.ti.com/lit/ds/symlink/lm317.pdf
+https://www.thonk.co.uk/shop/3-5mm-jacks/
+https://www.taydaelectronics.com/25k-ohm-linear-taper-potentiometer-round-shaft-pcb-9mm.html
+PJ301BM-Footprint abgeleitet aus clacktronics/AudioJacks (MIT); KiCad-Bibliothekselemente gemaess KiCad-Bibliothekslizenz. Die eigenen Anpassungen betreffen lokale Symbole, Fab/Silk-Darstellung und Projektzuordnung.
+https://github.com/clacktronics/AudioJacks
+https://www.kicad.org/libraries/license/

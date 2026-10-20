@@ -1,0 +1,1 @@
+Alle 268 verbundenen Bauteilpins stimmen zwischen der Verbindungstabelle und der durch KiCad exportierten Netzliste ueberein. Das prueft die Uebertragung, nicht die analoge Funktion.
