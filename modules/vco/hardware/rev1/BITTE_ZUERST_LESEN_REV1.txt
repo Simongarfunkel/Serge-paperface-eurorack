@@ -24,7 +24,7 @@ ABWEICHUNGEN / ZU PRUEFEN
    SUM_P = U1A+, 330k von RV1/RV2, 1M vom Offset-Trimmer TR1, 82p vom Range-Trimmer TR2.
    SH_IN = U1D+, 330k/4u7 vom Sinus-Trimmer TR3, 4M7 vom Wave-Shape-Poti RV4, 1M5/Diode von der Wave-Shape-CV-Buchse.
    Gegen eine Originalquelle (serge.synth.net) pruefen.
-2. LM3900 als SOIC-14 (LM3900M) - Ausnahme von der THT-Regel, weil DIP-14 auf 8 HP nicht zwischen die Bedienelemente passt.
+2. LM3900 als SOIC-14 (LM3900M), entsprechend der Regel "SMD als Standard" (22.10.2026).
    Verfuegbarkeit LM3900M/LM3900MX pruefen; sonst zwei Platinen oder 10 HP.
 3. Transistoren MMBT3904 (SOT-23) mit Footprint SOT-23_EBC_MMBT3904 (Padnummern = Symbolpins E,B,C). Beim Bestuecken
    Gehaeusebelegung beachten (siehe shared/kicad/README.md).
