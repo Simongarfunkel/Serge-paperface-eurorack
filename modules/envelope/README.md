@@ -27,4 +27,6 @@ Vor dem Öffnen: [`hardware/rev1/BITTE_ZUERST_LESEN_REV1.txt`](hardware/rev1/BIT
 
 ## Quellen
 
+- [`docs/Serge_73-75_Envelope_Originalauszug.pdf`](docs/Serge_73-75_Envelope_Originalauszug.pdf), [`docs/Schaltplan_Original.png`](docs/Schaltplan_Original.png)
+
 73-75 Build Instructions, S. 32–34; Originalpanel `ENVELOPE_REV.0.dxf`. Weitere im Readme der REV1.

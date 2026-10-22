@@ -5,6 +5,7 @@
 ## Dokumente
 
 - [`docs/Serge_73-75_VCO_Originalauszug.pdf`](docs/Serge_73-75_VCO_Originalauszug.pdf) – Originalschaltung, BOM, Trimmanleitung.
+- [`docs/Schaltplan_Original.png`](docs/Schaltplan_Original.png) – Originalschaltplan als Bild (300 dpi, gedreht).
 - [`docs/Serge_VCO_Stabilisierung_Gruen.pdf`](docs/Serge_VCO_Stabilisierung_Gruen.pdf) – Stabilisierungsvorschlag (16.10.2026, Entwurf, keine freigegebene Nachbauschaltung).
 
 ## Original (Kurzfassung)
