@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "Serge_Local") (type "KiCad") (uri "${KIPRJMOD}/../../../../shared/kicad/Serge_Local.pretty") (options "") (descr "Gemeinsame Serge-Footprints (shared/kicad)")))

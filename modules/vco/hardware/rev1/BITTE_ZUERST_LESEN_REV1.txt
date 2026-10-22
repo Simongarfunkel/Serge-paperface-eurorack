@@ -1,0 +1,39 @@
+SERGE VCO (OSCILLATOR) REV1 - KICAD-ENTWURF
+Stand: 22.10.2026
+
+Serge_VCO_REV1.kicad_pro oeffnen (KiCad 10; Bibliotheken liegen in shared/kicad, Pfade relativ ueber ${KIPRJMOD}).
+
+ENTHALTEN
+- Schaltplan: vollstaendige Uebertragung der 73-75-Oscillator-Schaltung (Build Instructions S. 6) als Label-Netzliste;
+  gleichnamige Labels sind verbunden. Bauteilzahlen stimmen mit der gedruckten BOM (S. 4) ueberein (30/30 Positionen).
+- Eurorack-Ergaenzung: 10-pol. Stiftleiste (Pins 1/2 -12 V, 3-8 GND, 9/10 +12 V), Verpolschutz SS14 in beiden Schienen,
+  10u + 100n je Schiene. Kein +6 V noetig (der VCO nutzt nur V+ und V-).
+- Platine 36,64 x 112,5 mm (8 HP minus 2 mm je Seite, Oberkante 8,5 mm unter Panelkante), Dwgs.User zeigt Panel und Raster.
+  Vorderseite: 8 Buchsen (PJ301BM) und 4 Potis (Alpha 9 mm) auf dem 3U-Raster 19,7 mm. Rueckseite: alle anderen Bauteile.
+- Stueckliste_REV1.txt (SMD/THT je Bauteil), Bauteile_und_Netze.json (Pin-Netz-Zuordnung).
+
+NOCH NICHT GEMACHT
+- Keine Leiterbahnen: Platine ist nur platziert (Ratsnest). Routing z. B. mit Freerouting, danach DRC.
+- ERC/DRC wurden hier nicht ausgefuehrt (kein KiCad in der Erstellungsumgebung) - bitte in KiCad laufen lassen.
+- Platzierung ist ein automatischer Entwurf (Gruppen nicht nach Signalfluss sortiert); vor dem Routen umsortieren.
+
+ABWEICHUNGEN / ZU PRUEFEN
+1. SUM_P / SH_IN: In der Vorlage ist der nichtinvertierende Eingang des Summierers (U1A, +) mit dem (+)-Eingang des
+   Sinusformers (U1D) durch eine durchgehende Linie verbunden. Elektrisch ergibt das keinen Sinn (CV-Summe und
+   Saegezahn-Einkopplung ueber 4u7/330k wuerden sich mischen). Hier als zwei Netze ausgefuehrt:
+   SUM_P = U1A+, 330k von RV1/RV2, 1M vom Offset-Trimmer TR1, 82p vom Range-Trimmer TR2.
+   SH_IN = U1D+, 330k/4u7 vom Sinus-Trimmer TR3, 4M7 vom Wave-Shape-Poti RV4, 1M5/Diode von der Wave-Shape-CV-Buchse.
+   Gegen eine Originalquelle (serge.synth.net) pruefen.
+2. LM3900 als SOIC-14 (LM3900M) - Ausnahme von der THT-Regel, weil DIP-14 auf 8 HP nicht zwischen die Bedienelemente passt.
+   Verfuegbarkeit LM3900M/LM3900MX pruefen; sonst zwei Platinen oder 10 HP.
+3. Transistoren MMBT3904 (SOT-23) mit Footprint SOT-23_EBC_MMBT3904 (Padnummern = Symbolpins E,B,C). Beim Bestuecken
+   Gehaeusebelegung beachten (siehe shared/kicad/README.md).
+4. Elkos als SMD 5x5.4 (wie Envelope REV1). Zeitkondensator 27n als Folie (THT, RM 5).
+5. Buchsenzuordnung zum Panel (Annahme): J41 Sinus, J42 Sinus AC-gekoppelt (Spalte 1, Reihen 0/1), J40 Saegezahn AC,
+   J39 Saegezahn (Reihe 2), J37 Wave-Shape-CV (Spalte 2, Reihe 1), J35/J36 VC-Eingaenge (Reihe 3), J38 Sync (Reihe 5).
+   Potis: RV4 Wave Shape (oben rechts), RV1/RV2 VC-Abschwaecher (Reihe 4), RV3 Frequenz (unten rechts).
+6. Poti-Footprint hat Anti-Rotations-Laschen; Lage pro Spalte gespiegelt (Spalte 0: 180 Grad, Spalte 1: 0 Grad).
+7. Abgleich wie Original: TR1 Initial Offset (tiefste Frequenz), TR2 Range (Spanne), TR3 Sinus.
+
+QUELLEN
+73-75 Build Instructions S. 4-6 (docs/), Envelope REV1 als Vorlage fuer Format und Bauteilwahl.

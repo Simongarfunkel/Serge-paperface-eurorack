@@ -1,6 +1,6 @@
 # VCO (Oszillator)
 
-**Stand:** Entwurf · **Freigabe:** nein · noch kein KiCad-Projekt
+**Stand:** REV1 KiCad-Entwurf (22.10.2026), unverdrahtet, ERC/DRC offen · **Freigabe:** nein
 
 ## Dokumente
 
@@ -21,7 +21,14 @@ LM3900-Kern, 3 × 2N3904, 27-nF-Zeitkondensator, drei Trimmer:
 - Neu auszulegen: 1-V/Okt.-Eingang mit gepaartem NPN-Expo, Referenzstromregelung, Tempco, gepufferte Präzisionsreferenz.
 - Ziel: fünf Oktaven, ±5 Cent nach Warmlaufen – noch nicht nachgewiesen.
 
+## Revisionen
+
+| Rev | Ordner | Inhalt | Status |
+|---|---|---|---|
+| REV1 | [`hardware/rev1`](hardware/rev1) | KiCad-Schaltplan (Label-Netzliste), Platine platziert, Stückliste, Netzliste | Entwurf – vor dem Öffnen [`BITTE_ZUERST_LESEN_REV1.txt`](hardware/rev1/BITTE_ZUERST_LESEN_REV1.txt) |
+
 ## Nächste Schritte
 
-1. Originalkern aufbauen, Strom-/Spannungsbereiche und Reset-Zeit messen.
-2. KiCad-Projekt `hardware/rev1` nach Konventionen anlegen.
+1. ERC in KiCad, Routing (Freerouting), DRC.
+2. Abweichung SUM_P/SH_IN gegen Originalquelle prüfen (siehe BITTE_ZUERST_LESEN).
+3. Originalkern aufbauen, Strom-/Spannungsbereiche und Reset-Zeit messen.

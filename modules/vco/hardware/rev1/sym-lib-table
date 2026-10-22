@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "Serge") (type "KiCad") (uri "${KIPRJMOD}/../../../../shared/kicad/Serge.kicad_sym") (options "") (descr "Gemeinsame Serge-Symbole (shared/kicad)")))

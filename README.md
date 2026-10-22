@@ -9,9 +9,10 @@ Gemeinsame Vorgaben stehen in [`docs/konventionen.md`](docs/konventionen.md).
 | Modul | Ordner | Stand | Fertigungsfreigabe |
 |---|---|---|---|
 | Envelope | [`modules/envelope`](modules/envelope) | REV1: KiCad-Projekt komplett geroutet, ERC/DRC 0 Meldungen | nein – mechanische Prüfung und Prototyp offen |
-| VCO (Oszillator) | [`modules/vco`](modules/vco) | Originalauszug + Stabilisierungsvorschlag (Entwurf vom 16.10.2026) | nein – noch kein KiCad-Projekt |
+| VCO (Oszillator) | [`modules/vco`](modules/vco) | REV1: KiCad-Schaltplan vollständig, Platine platziert, noch unverdrahtet, ERC/DRC offen | nein |
+| Triple Waveshaper, Peak/Trough, Comparator, Dual Processor, Gate, Ring, Reverb, Preamp, Positive/Negative Slew | `modules/<modul>` | Originalauszüge abgelegt, noch kein KiCad | nein |
 
-Neue Module: [`modules/_vorlage`](modules/_vorlage) kopieren und umbenennen.
+Neue Module: [`modules/_vorlage`](modules/_vorlage) kopieren und umbenennen. Bauteilwahl: [`docs/bauteilregel.md`](docs/bauteilregel.md). Gemeinsame KiCad-Bibliotheken: [`shared/kicad`](shared/kicad).
 
 ## Weitere Inhalte
 

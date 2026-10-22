@@ -10,10 +10,11 @@ Gilt für alle Module ab dem zweiten KiCad-Projekt. Vorgabe vom 21.10.2026.
 | Elkos | THT | CP_Radial (Durchmesser nach Wert) |
 | Dioden 1N4148 | SMD | D_SOD-123 (1N4148W) |
 | Transistoren 2N3904/2N3906 | SMD | SOT-23 (MMBT3904/MMBT3906) |
-| CA3086 (Transistor-Array) | THT | DIP-14 (nur THT erhältlich) |
-| CA3080 (OTA) | THT | DIP-8 (Ersatz LM13700 prüfen) |
-| LM3900 | THT | DIP-14_W7.62mm |
-| LM741, LM307/TL071, LM1458 | SMD | SOIC-8 (TL071/TL072 als Ersatz) |
+| LM3900 | THT | DIP-14_W7.62mm (lieferbar) |
+| LM741, LM307 → **TL071** | THT | DIP-8, pinkompatibel (Originale abgekündigt) |
+| LM1458 → **TL072** | THT | DIP-8, pinkompatibel |
+| CA3080 → **LM13700** | THT | DIP-16, andere Belegung, Schaltung anpassen (Original abgekündigt) |
+| CA3086 (abgekündigt) | – | Ersatz durch Einzeltransistoren MMBT3904 (gepaart) oder verfügbares Array; je Modul entscheiden |
 | Trimmer 25k / 10k | THT | Potentiometer_Bourns_3296W_Vertical |
 | Potis 25k linear | THT | Alpha RD901F (wie Envelope REV1) |
 | Buchsen 3,5 mm | THT | Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical |
